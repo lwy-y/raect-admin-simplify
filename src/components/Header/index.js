@@ -45,13 +45,13 @@ class Header extends Component {
 							overlay={
 								<Menu onClick={this.handleDropdown.bind(this)}>
 									{/* Menu.Item必须设置唯一的key */}
-									<Menu.Item key="0" className={styles.dropItemLink}>
+									{/* <Menu.Item key="0" className={styles.dropItemLink}>
 										<Icon type="user" className={styles.mgr8} /> 关于作者
 									</Menu.Item>
 									<Menu.Item key="1" className={styles.dropItemLink}>
 										<Icon type="book" className={styles.mgr8} /> 项目仓库
 									</Menu.Item>
-									<Menu.Divider />
+									<Menu.Divider /> */}
 									<Menu.Item key="2" className={styles.dropItemLink}>
 										<Icon type="logout" /> 退出登录
 									</Menu.Item>
