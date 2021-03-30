@@ -108,12 +108,12 @@ class Header extends Component {
 	// 用户名下拉菜单操作
 	handleDropdown({ key }) {
 		switch (key) {
-			case "0":
-				window.open("https://lin-xin.gitee.io/about/", "_blank");
-				break;
-			case "1":
-				window.open("https://github.com/lin-xin/react-manage-system", "_blank");
-				break;
+			// case "0":
+			// 	window.open("https://lin-xin.gitee.io/about/", "_blank");
+			// 	break;
+			// case "1":
+			// 	window.open("https://github.com/lin-xin/react-manage-system", "_blank");
+			// 	break;
 			case "2":
 				localStorage.removeItem("ms_username");
 				this.props.history.push("/login");
